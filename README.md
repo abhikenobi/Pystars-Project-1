@@ -45,7 +45,7 @@ The third factor researched was the installation of `**solar panels**`. As Color
 
 ### Methodology
 ---
-This housing sales data was provided through a group member's `personal API` used for their work in real life. We had to settle on just 2021 due to time constraints and to prevent server crashes when trying to consolodate the data at once due to the vast size. It was then filtered through the `Google Geocoding API` where the address was used to extrapolate the longitude and latitude for each property. Afterwards, the long,lat values were used to parse the `Walk Score API` and the `School Digger API` to extract for each home:
+This housing sales data was provided through a group member's `Personal API` used for their work in real life. We had to settle on just 2021 due to time constraints and to prevent server crashes when trying to consolodate the data at once due to the vast size. It was then filtered through the `Google Geocoding API` where the address was used to extrapolate the longitude and latitude for each property. Afterwards, the long,lat values were used to parse the `Walk Score API` and the `School Digger API`, and cross-examine the `Pikes Peak Regional Building's Solar Panel Licensing Data` to extract for each home:
 - Walk Score
 - Nearest High School
 - High School Ranking
@@ -53,3 +53,6 @@ This housing sales data was provided through a group member's `personal API` use
 - Middle School Ranking
 - Nearest Elementary School
 - Elementary School Ranking
+- Solar Panels Installed: True/False
+
+> During analysis, it was shown that of the 4400 properties, only one home had solar panels installed. Due to the extremely limited data-set, analysis was deemed moot, as any findings could not be proven significant without additional data.
